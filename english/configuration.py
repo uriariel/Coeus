@@ -12,3 +12,10 @@ class PathConfigs(object):
     filtered_dict_path = FILTERED_DICT_PATH
     classified_dict_path = CLASSIFIED_DICT_PATH
 
+
+class AnalyzerConfigs(object):
+    k = 11
+    word_set_size = 1000
+
+
+
