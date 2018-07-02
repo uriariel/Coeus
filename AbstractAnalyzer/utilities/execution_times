@@ -1,0 +1,2 @@
+KeyedVectors.load_word2vec_format(PathConfigs.wiki_pretrained_corpus_path): 239.73040294647217
+Word2Vec(Text8Corpus(PathConfigs.text8_corpus_path)) : 75.30341982841492

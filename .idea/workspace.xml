@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aea825c6-8897-4191-9ca2-4402d3f64c0b" name="Default" comment="Change the classifier to real knn">
+      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/assets/text8_corpus" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/configuration/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/configuration/analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/configuration/path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/src/classifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/utilities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/utilities/measure_execution_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/english/analyzer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/english/assets/classified_words.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/english/assets/filtered_words_with_concreteness.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/assets/filtered_words_with_concreteness.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/english/assets/words_with_concreteness.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/english/assets/words_with_concreteness_sorted.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness_sorted.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/english/assets/words_with_concreteness_sorted.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness_sorted.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/english/configuration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/english/prepare_training_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/english/results/classified_words.csv" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Coeus$prepare_training_set.coverage" NAME="prepare_training_set Coverage Results" MODIFIED="1529530126917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/english" />
+    <SUITE FILE_PATH="coverage/Coeus$analyzer__1_.coverage" NAME="analyzer (1) Coverage Results" MODIFIED="1529883503807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/src" />
+    <SUITE FILE_PATH="coverage/Coeus$analyzer.coverage" NAME="analyzer Coverage Results" MODIFIED="1529847181908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/english" />
+    <SUITE FILE_PATH="coverage/Coeus$analyze_results.coverage" NAME="analyze_results Coverage Results" MODIFIED="1530555350173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/utilities" />
+    <SUITE FILE_PATH="coverage/Coeus$timeit.coverage" NAME="timeit Coverage Results" MODIFIED="1529877305334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/english" />
+    <SUITE FILE_PATH="coverage/Coeus$timeit__1_.coverage" NAME="timeit (1) Coverage Results" MODIFIED="1529906224681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/utilities" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="analyzer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
+              <folding>
+                <element signature="e#31#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classified_words_2.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_2.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670842">
+              <caret line="37269" selection-start-line="37269" selection-end-line="37269" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classifiers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/classifiers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classified_words_3.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_3.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="classified_words.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/classified_words.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="results_statistics.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/results_statistics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Abstract</find>
+      <find>Abstra</find>
+      <find>ism</find>
+      <find>rocket</find>
+      <find>neighbours</find>
+      <find>neigbours</find>
+      <find>neighbors</find>
+      <find>Classification.</find>
+      <find>Concrete</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>neighbours</replace>
+      <replace>concrete</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/english/Classifiers.py" />
+        <option value="$PROJECT_DIR$/english/configuration.py" />
+        <option value="$PROJECT_DIR$/english/classifiers.py" />
+        <option value="$PROJECT_DIR$/timeit.py" />
+        <option value="$PROJECT_DIR$/english/analyzer.py" />
+        <option value="$PROJECT_DIR$/english/__init__.py" />
+        <option value="$PROJECT_DIR$/english/timeit.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/configuration.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/configuration/analyzer.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/timeit.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/classifiers.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/analyzer.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/utilities/timeit.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/utilities/execution_times" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/utilities/measure_execution_time.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_2.csv" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_1.csv" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/src/classifiers.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/configuration/path.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/results/analyze_results.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/utilities/analyze_results.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/utilities/results_statistics.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="993" />
+    <option name="y" value="25" />
+    <option name="width" value="927" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Coeus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coeus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coeus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coeus" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractAnalyzer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coeus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coeus" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractAnalyzer" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coeus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coeus" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractAnalyzer" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coeus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coeus" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractAnalyzer" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coeus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coeus" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractAnalyzer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coeus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coeus" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractAnalyzer" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AbstractAnalyzer/utilities" />
+      <recent name="$PROJECT_DIR$/AbstractAnalyzer/results" />
+      <recent name="$PROJECT_DIR$/AbstractAnalyzer/src" />
+      <recent name="$PROJECT_DIR$/english" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/english/results" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.analyze_results">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Coeus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="analyze_results" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Coeus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AbstractAnalyzer/utilities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AbstractAnalyzer/utilities/results_statistics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="analyzer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Coeus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AbstractAnalyzer/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="measure_execution_time" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Coeus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AbstractAnalyzer/utilities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AbstractAnalyzer/utilities/measure_execution_time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="prepare_training_set" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Coeus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/english" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/english/prepare_training_set.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.prepare_training_set" />
+      <item itemvalue="Python.measure_execution_time" />
+      <item itemvalue="Python.analyzer" />
+      <item itemvalue="Python.analyze_results" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.analyze_results" />
+        <item itemvalue="Python.analyzer" />
+        <item itemvalue="Python.measure_execution_time" />
+        <item itemvalue="Python.prepare_training_set" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aea825c6-8897-4191-9ca2-4402d3f64c0b" name="Default" comment="" />
+      <created>1529528017918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529528017918</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Change the classifier to real knn">
+      <created>1529847900970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529847900970</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32910052" />
+      <window_info anchor="right" x="0" y="0" width="413" height="855" id="Documentation" order="5" side_tool="true" weight="0.26929304" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32910052" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18888289" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32910052" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32910052" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change the classifier to real knn" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the classifier to real knn" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="16" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661086">
+          <caret line="36727" column="9" selection-start-line="36727" selection-start-column="9" selection-end-line="36727" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/filtered_words_with_concreteness.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668718">
+          <caret line="37151" column="15" selection-start-line="37151" selection-start-column="15" selection-end-line="37151" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration.py" />
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness_sorted.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness_sorted.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/filtered_words_with_concreteness.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647640">
+          <caret line="35980" column="17" lean-forward="true" selection-start-line="35980" selection-start-column="17" selection-end-line="35980" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/text8_corpus">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/text8_corpus">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/text8_corpus">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness_sorted.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness_sorted.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/filtered_words_with_concreteness.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/wiki_corpus">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/gensim/models/word2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.~lock.Presentation.pptx#" />
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/measure_execution_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670842">
+          <caret line="37269" selection-start-line="37269" selection-end-line="37269" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/classifiers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_3.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/classified_words.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
+          <folding>
+            <element signature="e#31#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/execution_times">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/classified_words_1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="37235" column="14" selection-start-line="37235" selection-start-column="14" selection-end-line="37235" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/collections/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14382">
+          <caret line="800" selection-start-line="800" selection-end-line="800" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-2066100795/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1548">
+          <caret line="2787" column="6" selection-start-line="2787" selection-start-column="6" selection-end-line="2787" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/results_statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
