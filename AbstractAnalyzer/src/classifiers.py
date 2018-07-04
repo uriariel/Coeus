@@ -1,34 +1,30 @@
-from AbstractAnalyzer.configuration.path import PathConfigs
-
-from gensim.models.word2vec import Word2Vec, Text8Corpus
+from gensim.models.keyedvectors import KeyedVectors
 from itertools import chain
+from enum import Enum
 from numpy import average
 
 
-class Classification:
+class Classification(Enum):
     abstract = 'abstract'
     concrete = 'concrete'
 
 
 class KnnClassifier:
-    def __init__(self, k, positive_set, negative_set):
+    def __init__(self, k: int, positive_set: list, negative_set: list, corpus_path: str):
         """
         :param k: number of nearest neighbours to look at
-        :type k: int
         :param positive_set: Vocabulary to use as positively ranked
-        :type positive_set: list
         :param negative_set: Vocabulary to use as negatively ranked
-        :type negative_set: list
+        :param corpus_path: path to the corpus to load word vectors from
         """
         self.k = k
         self.positive_set = positive_set
         self.negative_set = negative_set
-        self.word_vectors_model = Word2Vec(Text8Corpus(PathConfigs.text8_corpus_path)).wv
+        self.word_vectors_model = KeyedVectors.load_word2vec_format(corpus_path, binary=True)
 
-    def classify_word(self, word):
+    def classify_word(self, word: str):
         """
         :param word: Word to classify
-        :type word: str
         :return: NotImplemented error
         """
         raise NotImplementedError
@@ -42,24 +38,20 @@ class KnnClassifier:
 
 
 class NeighboursKnnClassifier(KnnClassifier):
-    def __init__(self, k, positive_set, negative_set):
+    def __init__(self, k: int, positive_set: list, negative_set: list, corpus_path: str):
         """
         :param k: number of nearest neighbours to look at
-        :type k: int
         :param positive_set: Vocabulary to use as positively ranked
-        :type positive_set: list
         :param negative_set: Vocabulary to use as negatively ranked
-        :type negative_set: list
+        :param corpus_path: path to the corpus to load word vectors from
         """
-        super().__init__(k, positive_set, negative_set)
+        super().__init__(k, positive_set, negative_set, corpus_path)
 
-    def classify_word(self, word):
+    def classify_word(self, word: str):
         """
         :param word: word to classify
-        :type word: str
         :return: Classification
         """
-        word = word.lower()
 
         k_nearest_neighbours = self.__find_k_nearest_neighbours(word)
 
@@ -70,12 +62,10 @@ class NeighboursKnnClassifier(KnnClassifier):
         else:
             return Classification.concrete
 
-    def __find_k_nearest_neighbours(self, word):
+    def __find_k_nearest_neighbours(self, word: str) -> list:
         """
         :param word: word to find neighbours of
-        :type word: str
         :return: k nearest neighbors of word
-        :rtype: list
         """
         distances_from_positive_set = zip(self.positive_set,
                                           self.word_vectors_model.distances(word, self.positive_set))
@@ -89,25 +79,20 @@ class NeighboursKnnClassifier(KnnClassifier):
 
 
 class SurroundingKnnClassifier(KnnClassifier):
-    def __init__(self, k, positive_set, negative_set):
+    def __init__(self, k: int, positive_set: list, negative_set: list, corpus_path: str):
         """
         :param k: number of nearest neighbours to look at
-        :type k: int
         :param positive_set: Vocabulary to use as positively ranked
-        :type positive_set: list
         :param negative_set: Vocabulary to use as negatively ranked
-        :type negative_set: list
+        :param corpus_path: path to the corpus to load word vectors from
         """
-        super().__init__(k, positive_set, negative_set)
+        super().__init__(k, positive_set, negative_set, corpus_path)
 
-    def classify_word(self, word):
+    def classify_word(self, word: str) -> Classification:
         """
         :param word: word to classify
-        :type word: str
         :return: classification of the word
-        :rtype: Classification
         """
-        word = word.lower()
 
         k_nearest_positive_neighbours, k_nearest_negative_neighbours = self.__find_k_surrounding_sets(word)
 
@@ -122,18 +107,18 @@ class SurroundingKnnClassifier(KnnClassifier):
         else:
             return Classification.concrete
 
-    def __find_k_surrounding_sets(self, word):
+    def __find_k_surrounding_sets(self, word: str) -> tuple:
         """
         :param word: word to find surrounding sets for
-        :type word: str
         :return: k-surrounding of word for each classification class
-        :rtype: tuple
         """
-        k_nearest_positive_neighbours = self._get_k_nearest_neighbours(zip(self.positive_set,
-                                                                           self.word_vectors_model.distances(word,
-                                                                                                             self.positive_set)))
-        k_nearest_negative_neighbours = self._get_k_nearest_neighbours(zip(self.negative_set,
-                                                                           self.word_vectors_model.distances(word,
-                                                                                                             self.negative_set)))
+        k_nearest_positive_neighbours = self._get_k_nearest_neighbours(
+            zip(self.positive_set,
+                self.word_vectors_model.distances(word,
+                                                  self.positive_set)))
+        k_nearest_negative_neighbours = self._get_k_nearest_neighbours(
+            zip(self.negative_set,
+                self.word_vectors_model.distances(word,
+                                                  self.negative_set)))
 
         return k_nearest_positive_neighbours, k_nearest_negative_neighbours

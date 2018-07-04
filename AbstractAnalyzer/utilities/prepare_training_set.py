@@ -1,31 +1,42 @@
 """Prepare supervisioned positive and negative word sets for the classifier"""
+from gensim.models.keyedvectors import KeyedVectors
 
-from gensim.models import word2vec
 from AbstractAnalyzer.configuration.path import PathConfigs
 import csv
 
 
-def main():
-    with open(PathConfigs.english_dict_path, 'r') as english_word_set:
-        concreteness_dict = {word.lower().strip(): concreteness for concreteness, word in csv.reader(english_word_set)}
+def write_filtered_set_to_file(cleaned_set: dict, output_file: str):
+    with open(output_file, 'w') as cleaned_training_set_file:
+        writer = csv.writer(cleaned_training_set_file)
+        for word, concreteness in cleaned_set.items():
+            writer.writerow([word, concreteness])
 
-    model = word2vec.Word2Vec(word2vec.Text8Corpus(PathConfigs.text8_corpus_path))
+
+def filter_data_set(unfiltered_data_set_path: str, corpus_path: str, training_set_output_path: str):
+    with open(unfiltered_data_set_path, 'r') as unfiltered_data_set:
+        concreteness_dict = {word.lower().strip(): concreteness for word, concreteness in
+                             csv.reader(unfiltered_data_set)}
+
+    model = KeyedVectors.load_word2vec_format(corpus_path, binary=True).wv
 
     banned_words_list = []
 
     for word in concreteness_dict.keys():
         try:
-            model.most_similar(word)
+            model[word]
         except KeyError:
             banned_words_list.append(word)
 
-    filtered_dict = dict(
+    filtered_data_set = dict(
         filter(lambda word_concreteness: word_concreteness[0] not in banned_words_list, concreteness_dict.items()))
 
-    with open(PathConfigs.filtered_dict_path, 'w') as filtered_dict_file:
-        writer = csv.writer(filtered_dict_file)
-        for key, val in filtered_dict.items():
-            writer.writerow([val, key])
+    write_filtered_set_to_file(filtered_data_set, training_set_output_path)
+
+
+def main():
+    filter_data_set(PathConfigs.RawFiles.hebrew_data_set_unfiltered_path,
+                    PathConfigs.Corpuses.hebrew_cc_corpus_path,
+                    PathConfigs.DataSets.hebrew_data_set_path)
 
 
 if __name__ == '__main__':

@@ -1,9 +1,9 @@
 # Analyzer
 *corpus
 
-# Tools
-tools/
+# Raw files 
 *.zip
+raw_files/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

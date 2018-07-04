@@ -44,16 +44,16 @@ class StatisticDict(dict):
 
 
 def main():
-    results_list = filter(lambda entry: entry.is_file(), scandir(PathConfigs.results_dir_path))
+    results_list = filter(lambda entry: entry.is_file(), scandir(PathConfigs.Results.results_dir_path))
     statistics_dict = StatisticDict()
     for file in results_list:
         with open(file, 'r') as results_file:
             for result_line in results_file.readlines():
-                word, classification = [token.strip() for token in result_line.split(':')]
+                word, classification = [token.strip() for token in result_line.split(',')]
                 statistics_dict[word] = classification
 
     for (word, statistics) in statistics_dict.get_items():
-        print('{} => {}'.format(word, ' '.join(['{}: {}'.format(classification, count) for (classification, count) in
+        print('{} => {}'.format(word, ' '.join(['{}, {}'.format(classification, count) for (classification, count) in
                                                statistics.items()])))
 
 
