@@ -10,7 +10,7 @@ class Classification(Enum):
 
 
 class KnnClassifier:
-    def __init__(self, k: int, positive_set: list, negative_set: list, corpus_path: str):
+    def __init__(self, k: int, positive_set: set, negative_set: set, corpus_path: str):
         """
         :param k: number of nearest neighbours to look at
         :param positive_set: Vocabulary to use as positively ranked
@@ -38,7 +38,7 @@ class KnnClassifier:
 
 
 class NeighboursKnnClassifier(KnnClassifier):
-    def __init__(self, k: int, positive_set: list, negative_set: list, corpus_path: str):
+    def __init__(self, k: int, positive_set: set, negative_set: set, corpus_path: str):
         """
         :param k: number of nearest neighbours to look at
         :param positive_set: Vocabulary to use as positively ranked
@@ -79,7 +79,7 @@ class NeighboursKnnClassifier(KnnClassifier):
 
 
 class SurroundingKnnClassifier(KnnClassifier):
-    def __init__(self, k: int, positive_set: list, negative_set: list, corpus_path: str):
+    def __init__(self, k: int, positive_set: set, negative_set: set, corpus_path: str):
         """
         :param k: number of nearest neighbours to look at
         :param positive_set: Vocabulary to use as positively ranked

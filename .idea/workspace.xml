@@ -5,26 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aea825c6-8897-4191-9ca2-4402d3f64c0b" name="Default" comment="Change the classifier to real knn">
-      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/configuration/format.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/src/results_analyzer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractAnalyzer/utilities/flip_around_comma.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/uriariel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/uriariel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/assets/filtered_words_with_concreteness.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/assets/data_sets/english_words_with_concreteness.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/assets/text8_corpus" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files/words_with_concreteness.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness_sorted.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/assets/words_with_concreteness_sorted.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files/words_with_concreteness_sorted.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/assets/data_sets/english_words_with_concreteness.csv" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/assets/data_sets/english_words_with_concreteness.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/configuration/analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/configuration/analyzer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/configuration/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/configuration/path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/k_11_sample_1000/english_classified_word_set_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/k_11_sample_1000/english_classified_word_set_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/k_11_sample_1000/english_classified_word_set_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/english/group_1/k_11_sample_1000/english_classified_data_set_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/english/group_1/k_11_sample_1000/english_classified_data_set_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/english/group_1/k_11_sample_1000/english_classified_data_set_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/english/group_1/k_11_sample_1000/english_classified_data_set_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/english/group_1/k_11_sample_5000/english_classified_data_set_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_11_sample_2000/hebrew_classified_data_set_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_11_sample_2500/hebrew_classified_data_set_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_13_sample_2500/hebrew_classified_data_set_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_13_sample_3500/hebrew_classified_data_set_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_17_sample_3500/hebrew_classified_data_set_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_19_sample_5000/hebrew_classified_data_set_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_19_sample_5000/hebrew_classified_data_set_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_19_sample_6000/hebrew_classified_data_set_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_21_sample_3500/hebrew_classified_data_set_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_21_sample_7500/hebrew_classified_data_set_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_21_sample_7500/hebrew_classified_data_set_11.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/src/classifiers.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/src/classifiers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/utilities/results_statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/utilities/results_statistics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractAnalyzer/utilities/clean_word_set.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,33 +38,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Coeus$prepare_training_set.coverage" NAME="prepare_training_set Coverage Results" MODIFIED="1530695951044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/utilities" />
+    <SUITE FILE_PATH="coverage/Coeus$prepare_training_set.coverage" NAME="prepare_training_set Coverage Results" MODIFIED="1530736247586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/utilities" />
     <SUITE FILE_PATH="coverage/Coeus$hebrewAnalyzer.coverage" NAME="hebrewAnalyzer Coverage Results" MODIFIED="1530626482054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/src" />
     <SUITE FILE_PATH="coverage/Coeus$flip_around_comma.coverage" NAME="flip_around_comma Coverage Results" MODIFIED="1530621249476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/utilities" />
     <SUITE FILE_PATH="coverage/Coeus$hebrew_analyzer.coverage" NAME="hebrew_analyzer Coverage Results" MODIFIED="1530685119300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/src" />
     <SUITE FILE_PATH="coverage/Coeus$results_statistics.coverage" NAME="results_statistics Coverage Results" MODIFIED="1530559362007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/utilities" />
     <SUITE FILE_PATH="coverage/Coeus$analyzer__1_.coverage" NAME="analyzer (1) Coverage Results" MODIFIED="1529883503807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/src" />
     <SUITE FILE_PATH="coverage/Coeus$analyze_results.coverage" NAME="analyze_results Coverage Results" MODIFIED="1530557998951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/utilities" />
-    <SUITE FILE_PATH="coverage/Coeus$analyzer.coverage" NAME="analyzer Coverage Results" MODIFIED="1530716747000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/src" />
+    <SUITE FILE_PATH="coverage/Coeus$analyzer.coverage" NAME="analyzer Coverage Results" MODIFIED="1530738327296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/src" />
     <SUITE FILE_PATH="coverage/Coeus$timeit.coverage" NAME="timeit Coverage Results" MODIFIED="1529877305334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/english" />
     <SUITE FILE_PATH="coverage/Coeus$timeit__1_.coverage" NAME="timeit (1) Coverage Results" MODIFIED="1529906224681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AbstractAnalyzer/utilities" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hebrew_words_with_concreteness.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/data_sets/hebrew_words_with_concreteness.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="2219" column="13" selection-start-line="2219" selection-start-column="13" selection-end-line="2219" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="analyzer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+            <state relative-caret-position="402">
+              <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
               <folding>
                 <element signature="e#32#91#0" expanded="true" />
               </folding>
@@ -68,55 +63,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flip_around_comma.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/flip_around_comma.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="english_words_with_concreteness.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/data_sets/english_words_with_concreteness.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="62630" column="8" selection-start-line="62630" selection-start-column="8" selection-end-line="62630" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="measure_execution_time.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/measure_execution_time.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="analyzer.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/analyzer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="results_analyzer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/results_analyzer.py">
+      <file leaf-file-name="english_classified_data_set.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/english/english_classified_data_set.csv">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="prepare_training_set.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py">
+      <file leaf-file-name="hebrew_classified_data_set_2.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_21_sample_1000/hebrew_classified_data_set_2.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="hebrew_classified_data_set_1.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_21_sample_1000/hebrew_classified_data_set_1.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="hebrew_classified_data_set.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_11_sample_1000/hebrew_classified_data_set.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+            <state relative-caret-position="229">
+              <caret line="2216" column="13" lean-forward="true" selection-start-line="2216" selection-start-column="13" selection-end-line="2216" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="analyzer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/analyzer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clean_word_set.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/clean_word_set.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
               <folding>
-                <element signature="e#79#117#0" expanded="true" />
+                <element signature="e#79#130#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="english_nouns_brown.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/noun_sets/english_nouns_brown.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="11479" lean-forward="true" selection-start-line="11479" selection-end-line="11479" />
             </state>
           </provider>
         </entry>
@@ -124,8 +120,8 @@
       <file leaf-file-name="classifiers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/classifiers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="113" column="11" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+            <state relative-caret-position="286">
+              <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -133,9 +129,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="hebrew_nouns_abstract_pattern.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/noun_sets/hebrew_nouns_abstract_pattern.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4883">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -161,6 +161,8 @@
       <find>lower</find>
       <find>most_similar_t</find>
       <find>Keye</find>
+      <find>abstract</find>
+      <find>list</find>
     </findStrings>
     <replaceStrings>
       <replace>neighbours</replace>
@@ -201,14 +203,19 @@
         <option value="$PROJECT_DIR$/AbstractAnalyzer/src/english_classifiers.py" />
         <option value="$PROJECT_DIR$/AbstractAnalyzer/src/english_analyzer.py" />
         <option value="$PROJECT_DIR$/AbstractAnalyzer/src/hebrew_analyzer.py" />
-        <option value="$PROJECT_DIR$/AbstractAnalyzer/configuration/path.py" />
-        <option value="$PROJECT_DIR$/AbstractAnalyzer/src/classifiers.py" />
         <option value="$PROJECT_DIR$/AbstractAnalyzer/utilities/results_statistics.py" />
         <option value="$PROJECT_DIR$/AbstractAnalyzer/utilities/flip_around_comma.py" />
         <option value="$PROJECT_DIR$/AbstractAnalyzer/configuration/format.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/group_1/analyzer_configuration.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/group_3/analyzer_configuration.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/results/english/group_2/analyzer_configuration.py" />
         <option value="$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py" />
-        <option value="$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/assets/noun_sets/english_nouns_brown.csv" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/configuration/path.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/utilities/clean_word_set.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/src/classifiers.py" />
         <option value="$PROJECT_DIR$/AbstractAnalyzer/configuration/analyzer.py" />
+        <option value="$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py" />
       </list>
     </option>
   </component>
@@ -255,7 +262,7 @@
               <item name="Coeus" type="462c0819:PsiDirectoryNode" />
               <item name="AbstractAnalyzer" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="data_sets" type="462c0819:PsiDirectoryNode" />
+              <item name="noun_sets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Coeus" type="b2602c69:ProjectViewProjectNode" />
@@ -268,6 +275,13 @@
               <item name="Coeus" type="462c0819:PsiDirectoryNode" />
               <item name="AbstractAnalyzer" type="462c0819:PsiDirectoryNode" />
               <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coeus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coeus" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractAnalyzer" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="english" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Coeus" type="b2602c69:ProjectViewProjectNode" />
@@ -299,21 +313,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/AbstractAnalyzer/assets/corpuses" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/AbstractAnalyzer/results/k_11_sample_1000" />
-      <recent name="$PROJECT_DIR$/AbstractAnalyzer/assets" />
-      <recent name="$PROJECT_DIR$/AbstractAnalyzer/raw_files" />
-      <recent name="$PROJECT_DIR$/AbstractAnalyzer" />
-      <recent name="$PROJECT_DIR$/AbstractAnalyzer/assets/data_sets" />
+      <recent name="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_21_sample_1000" />
+      <recent name="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_21_sample_1200" />
+      <recent name="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_9_sample_800" />
+      <recent name="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_13_sample_1200" />
+      <recent name="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_11_sample_1000" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files/hebrew" />
+      <recent name="$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/group_3" />
+      <recent name="$PROJECT_DIR$/AbstractAnalyzer/results/english/group_2" />
       <recent name="$PROJECT_DIR$/AbstractAnalyzer/results" />
       <recent name="$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files" />
-      <recent name="$PROJECT_DIR$/AbstractAnalyzer/src" />
-      <recent name="$PROJECT_DIR$/english/results" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,15 +395,15 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AbstractAnalyzer/utilities/clean_word_set.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.prepare_training_set" />
       <item itemvalue="Python.analyzer" />
+      <item itemvalue="Python.prepare_training_set" />
     </list>
     <recent_temporary>
       <list>
@@ -462,105 +477,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="31" />
+      <option name="time" value="32" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/dist-packages/gensim/models/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.~lock.Presentation.pptx#" />
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/k_11_sample_1000/english_classified_word_set_2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670842">
-          <caret line="37269" selection-start-line="37269" selection-end-line="37269" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/k_11_sample_1000/english_classified_word_set_3.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/k_11_sample_1000/english_classified_word_set_1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="37235" column="14" selection-start-line="37235" selection-start-column="14" selection-end-line="37235" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/collections/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14382">
-          <caret line="800" selection-start-line="800" selection-end-line="800" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-2066100795/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1548">
-          <caret line="2787" column="6" selection-start-line="2787" selection-start-column="6" selection-end-line="2787" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/languageSwitch.py" />
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/corpuses/hebrew_cc_corpus">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/corpuses/text8_corpus">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/corpuses/wiki_corpus">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/classified_words.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="323" selection-start-line="323" selection-end-line="323" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/data_sets/hebrew_words_with_concreteness.csv_bp" />
     <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -606,20 +526,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files/words_with_concreteness_sorted.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files/words_with_concreteness.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files/english_words_with_concreteness.csv">
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files/english/english_words_with_concreteness.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
           <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files/hebrew_words_with_concreteness.csv">
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files/hebrew/hebrew_words_with_concreteness.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="2271" selection-start-line="2271" selection-end-line="2271" />
@@ -633,13 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="898020">
           <caret line="49890" column="22" selection-start-line="49890" selection-start-column="22" selection-end-line="49890" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/english_classified_data_set.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="68521" column="17" lean-forward="true" selection-start-line="68521" selection-start-column="17" selection-end-line="68521" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -667,68 +577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew_classified_data_set.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/path.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/format.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/prepare_training_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="e#79#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/measure_execution_time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/results_analyzer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/k_11_sample_5000/english_classified_data_set_1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/data_sets/hebrew_words_with_concreteness.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="2219" column="13" selection-start-line="2219" selection-start-column="13" selection-end-line="2219" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/data_sets/english_words_with_concreteness.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="62630" column="8" selection-start-line="62630" selection-start-column="8" selection-end-line="62630" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -739,32 +591,210 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/group_1/analyzer_configuration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/group_2/k_21_sample_8500/hebrew_classified_data_set_2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/gensim/models/utils_any2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/data_sets/hebrew_words_with_concreteness.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="2219" column="13" selection-start-line="2219" selection-start-column="13" selection-end-line="2219" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/group_2/k_21_sample_8500/hebrew_classified_data_set_3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/group_3/k_21_sample_8500/hebrew_classified_data_set_1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/format.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/data_sets/english_words_with_concreteness.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/english/group_2/k_11_sample_2000/english_classified_data_set_6.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="4264" column="15" selection-start-line="4264" selection-start-column="15" selection-end-line="4264" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/measure_execution_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/results_analyzer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/english/group_2/k_9_sample_2500/english_classified_data_set_3.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/english/group_2/analyzer_configuration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/group_2/analyzer_configuration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/group_3/analyzer_configuration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files/words_with_concreteness_sorted.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/hebrew_res">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104657">
+          <caret line="136" column="7" lean-forward="true" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/english_res">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files/hebrew/hebrew_nouns_mila.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/raw_files/hebrew/hebrew_nouns_abstract_pattern.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/noun_sets/hebrew_nouns_mila.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4379">
+          <caret line="5770" column="4" lean-forward="true" selection-start-line="5770" selection-start-column="4" selection-end-line="5770" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/utilities/clean_word_set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
+          <folding>
+            <element signature="e#79#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/noun_sets/hebrew_nouns_abstract_pattern.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4883">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/assets/noun_sets/english_nouns_brown.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="11479" lean-forward="true" selection-start-line="11479" selection-end-line="11479" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_11_sample_1000/hebrew_classified_data_set.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="2216" column="13" lean-forward="true" selection-start-line="2216" selection-start-column="13" selection-end-line="2216" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/classifiers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="113" column="11" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+        <state relative-caret-position="286">
+          <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_21_sample_1000/hebrew_classified_data_set_1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/hebrew/k_21_sample_1000/hebrew_classified_data_set_2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/src/analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        <state relative-caret-position="402">
+          <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
           <folding>
             <element signature="e#32#91#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/configuration/analyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/AbstractAnalyzer/results/english/english_classified_data_set.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

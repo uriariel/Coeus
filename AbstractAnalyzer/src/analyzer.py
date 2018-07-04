@@ -4,7 +4,6 @@ from AbstractAnalyzer.configuration.path import PathConfigs
 from AbstractAnalyzer.configuration.analyzer import AnalyzerConfigs
 from AbstractAnalyzer.src.classifiers import NeighboursKnnClassifier
 
-from gensim.models.keyedvectors import KeyedVectors
 from random import sample
 
 import csv
@@ -43,43 +42,58 @@ def write_results_to_output_file(classified_word_set: list, output_file_path: st
             classified_dict_file.write('{},{}\n'.format(word, classification))
 
 
-def get_abstract_words_sample(all_word_set: list, sample_size: int, abstraction_filter: callable) -> list:
+def get_abstract_words_sample(all_word_set: set, sample_size: int, abstraction_filter: callable) -> set:
     """
     :param all_word_set: set to take the sample from
     :param sample_size: size of the sample to take
     :param abstraction_filter: filter for abstract words
     :return: sample of random abstract words
     """
-    return sample(list(filter(abstraction_filter, all_word_set)), sample_size)
+    return set(sample(set(filter(abstraction_filter, all_word_set)), sample_size))
 
 
-def get_concrete_words_sample(all_word_set: list, sample_size: int, concreteness_filter: callable) -> list:
+def get_concrete_words_sample(all_word_set: set, sample_size: int, concreteness_filter: callable) -> set:
     """
     :param all_word_set: set to take the sample from
     :param sample_size: size of the sample to take
     :param concreteness_filter: filter for concrete words
     :return: sample of random concrete words
     """
-    return sample(list(filter(concreteness_filter, all_word_set)), sample_size)
+    return set(sample(set(filter(concreteness_filter, all_word_set)), sample_size))
 
 
-def analyze(corpus_path: str, words_to_classify_path: str, results_path: str,
-            pre_classification_filters: PreClassificationFilters):
+def analyze(corpus_path: str, noun_set_path: str, words_to_classify_path: str, results_path: str,
+            pre_classification_filters: PreClassificationFilters, abstract_noun_set_path: str = '',
+            concrete_noun_set_path: str = ''):
     """
     :param corpus_path: path to corpus that should be analyzed
+    :param noun_set_path: path to noun set to use for selecting pre classified base
     :param words_to_classify_path: path to word set that should be classified
     :param results_path: path to write the analyze results to
     :param pre_classification_filters: word filters for pre classification phase
+    :param abstract_noun_set_path: 
+    :param concrete_noun_set_path: 
     """
-    all_word_set = KeyedVectors.load_word2vec_format(corpus_path,
-                                                     binary=True).wv.index2word
+
+    with open(noun_set_path, 'r') as noun_set_file:
+        all_nouns_set = {word.strip() for word in noun_set_file.readlines()}
+
+    abstract_noun_set = set()
+    if abstract_noun_set_path != '':
+        with open(abstract_noun_set_path, 'r') as abstract_noun_set_file:
+            abstract_noun_set = {word.strip() for word in abstract_noun_set_file.readlines()}
+
+    concrete_noun_set = set()
+    if concrete_noun_set_path != '':
+        with open(concrete_noun_set_path, 'r') as concrete_noun_set_file:
+            concrete_noun_set = {word.strip() for word in concrete_noun_set_file.readlines()}
 
     neighbours_knn_classifier = NeighboursKnnClassifier(
         AnalyzerConfigs.k,
-        get_abstract_words_sample(all_word_set, AnalyzerConfigs.word_set_size,
-                                  pre_classification_filters.is_abstract_word),
-        get_concrete_words_sample(all_word_set, AnalyzerConfigs.word_set_size,
-                                  pre_classification_filters.is_concrete_word),
+        get_abstract_words_sample(all_nouns_set, AnalyzerConfigs.word_set_size,
+                                  pre_classification_filters.is_abstract_word) | abstract_noun_set,
+        get_concrete_words_sample(all_nouns_set, AnalyzerConfigs.word_set_size,
+                                  pre_classification_filters.is_concrete_word) | concrete_noun_set,
         corpus_path)
 
     with open(words_to_classify_path, 'r') as words_to_classify_path:
@@ -94,22 +108,27 @@ def analyze(corpus_path: str, words_to_classify_path: str, results_path: str,
 
 def analyze_hebrew():
     """Analyze hebrew corpus for abstractness"""
-    analyze(PathConfigs.Corpuses.hebrew_cc_corpus_path, PathConfigs.DataSets.hebrew_data_set_path,
+    analyze(PathConfigs.Corpuses.hebrew_cc_corpus_path,
+            PathConfigs.NounSets.hebrew_noun_set_path,
+            PathConfigs.DataSets.hebrew_data_set_path,
             PathConfigs.Results.hebrew_classified_data_set_path,
             PreClassificationFilters(AnalyzerConfigs.hebrew_abstract_prefixes,
-                                     AnalyzerConfigs.hebrew_abstract_suffixes))
+                                     AnalyzerConfigs.hebrew_abstract_suffixes),
+            PathConfigs.NounSets.hebrew_abstract_noun_set_path)
 
 
 def analyze_english():
     """Analyze english corpus for abstractness"""
-    analyze(PathConfigs.Corpuses.english_wiki_corpus_path, PathConfigs.DataSets.english_data_set_path,
+    analyze(PathConfigs.Corpuses.english_cc_corpus_path,
+            PathConfigs.NounSets.english_noun_set_path,
+            PathConfigs.DataSets.english_data_set_path,
             PathConfigs.Results.english_classified_data_set_path,
             PreClassificationFilters(AnalyzerConfigs.english_abstract_prefixes,
                                      AnalyzerConfigs.english_abstract_suffixes))
 
 
 def main():
-    analyze_hebrew()
+    analyze_english()
 
 
 if __name__ == '__main__':
