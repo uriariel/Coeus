@@ -1,0 +1,161 @@
+\documentclass[11pt,a4paper]{article}
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+%\usepackage{graphicx}
+%\usepackage{fullpage}
+%\usepackage{mathptmx}
+%\usepackage{setspace}
+%\usepackage[none]{hyphenat}
+%\usepackage{polyglossia}
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+%\setdefaultlanguage{english}
+%\setotherlanguage{hebrew}
+%\newfontfamily\hebrewfont[Script=Hebrew]{Times New Roman}
+%
+%
+%\begin{document}
+%\newcommand{\heb}[1]{\textit{\texthebrew{#1}}}
+%\onehalfspacing
+%\sloppy
+%\setlength{\parindent}{0pt}
+
+%---------------------- Title ----------------------
+
+\begin{titlepage}
+    \begin{center}
+        \begin{Large}
+            \null\vfill
+            \begin{tabular}{ccc}
+                Yuval Alfassi & \hspace{4cm} & Ariel Yahalom \\
+                yuvalalfassi@gmail.com & \hspace{4cm} & uriariel10@gmail.com \\
+            \end{tabular}
+            \vspace{.8cm}
+
+            \line(1,0){400} \\
+            \begin{LARGE}
+                \textbf{NLP Lab Report} \\
+                \vspace{0.3cm}
+
+                Morphological Influence of Words Abstractness
+            \end{LARGE}
+            \line(1,0){400}
+
+            \vspace{1.0cm}
+            University of Haifa \\
+            \vspace{0.3cm}
+            August 12, 2018 \\
+            \vfill\null\vfill\null\vfill\null
+        \end{Large}
+    \end{center}
+\end{titlepage}
+
+
+%---------------------- Table of Contents ----------------------
+
+\tableofcontents
+\newpage
+
+%---------------------- Introduction ----------------------
+%
+%\section{Introduction}\label{sec:introduction}
+%Words in general, and nouns in particular, differ in the abstractness of the entity they represent. Some nouns may be more abstract, like \textit{freedom} and \textit{happiness} whereas others are more concrete, like \textit{table} and \textit{pencil}. \\
+%The abstractness of words has an important role in psycho-linguistic research and some real-world applications, like text simplification or determining the language level of essay writers. \\
+%In this project, we are going to explore the correlation of the morphological structure of nouns and their abstractness level both in English and in Hebrew. The basis assumption is that certain abstractness or concreteness features are embedded in the morphological structure. A good example is the suffix \textit{-ism}, with nouns like \textit{feminism, autism, racism} which are all very abstract. \\
+%In order to assess whether there really is a connection between the morphological structure and the abstractness level, we reconstructed a study, done by \textit{Ella Rabinovich} on English words, and replicated it on Hebrew words. \\
+%Both in English and in Hebrew, we trained a KNN classifier of \textit{Word2Vec} vectors of nouns, with two classes; the first one is the abstract class, which contains a set of nouns with certain morphological features which we believe represent an abstract meaning; the second class is the concrete class, which contains nouns without the abstract morphological features. \\
+%If the KNN classifier achieves good accuracy on a test set of previously tagged words, then we'd infer that there really is a correlation, that the abstractness of words partially lies in the morphological structure.
+%Moreover, because Hebrew is more morphologically expressive, we'd expect better results of the Hebrew classifier.
+%\newpage
+
+%---------------------- English ----------------------
+
+\section{English}\label{sec:english}
+Because our goal in this project was to measure the morphological structure influence on the abstractness
+level of words. \\
+we are to show that the morphological richness of hebrew allows to deduce clues about the abstractness of a word,
+by comparing analysis result in English and Hebrew. \\
+Hence in this part of the project,our main objective is to redo the experiment done by Ela and her team, to get
+a baseline result of abstracness analysis in less morphologically rich language than hebrew,
+that we hope to excess in our hebrew experiment.
+
+\subsection{Corpora}\label{subsec:corpora}
+We used the next corpuses:
+\begin{itemize}
+    \item CommonCrawl: Common Crawl is a nonprofit organization that crawls the web and freely provides its
+    archives and datasets to the public. Common Crawl's web archive consists of petabytes of
+    data collected since 2011. This corpus in every language is avaliable in fastText format in
+    fastText's official site. \\
+    We used CommonCrawl in English as well as in Hebrew for building the Word2Vec space that will serve us
+    to measure distance between vectors.
+    \item Brown: Brown courpus was compiled in the 1960s at Brown University, as a general corpus
+    in the field of corpus linguistics. It contains 500 samples of English-language text. \\
+    We used the brown corpus as a weak supervisioned training set for our classifer.
+    \item MRC Psycholinguistic Database: The MRC machine-usable dictionary contains 150,837 words and up 26
+    linguistic and psycholinguistic attributes for each.
+   We used the MRC database as a test set, for validation and ranking of our results.
+\end{itemize}
+
+\subsection{Results}\label{subsec:results}
+
+\newpage
+
+%---------------------- Hebrew ----------------------
+%
+%\section{Hebrew}\label{sec:hebrew}
+%In order to test the accuracy of the classifier that we'll build of Hebrew words, we need a corpus of words labelled with their abstractness level. Unfortunately, there's no corpus in Hebrew that we know of that matches the description, so we've had to create it on our own. \\
+%First of all, we need a list of dotted Hebrew nouns. Having the words in their dotted form is extremely important, due to lots of heteronyms in Hebrew, like \heb{סַפָּר, סֶפֶר, סְפָר}. \\
+%In order to extract dotted Hebrew nouns that are commonly used, We took every possible dotted noun  that \textit{MILA}'s analyser proposed on \textit{Arutz 7}'s morphologically analysed text. An example is shown in figure \ref{fig:HebrewNounExtractionExample}.
+%
+%\begin{figure}[h!]
+%	\caption[]{Example of Hebrew noun extraction}
+%	\includegraphics[width=\linewidth]{nights_arabs_responsible.jpg}
+%	\label{fig:HebrewNounExtractionExample}
+%\end{figure}
+%
+%We picked about two thousand Hebrew nouns and had several people label the words either as abstract or concrete. Each noun was labelled by three people, so the label assigned at least two times would determine whether we'd consider the word as abstract or concrete. \\
+%It's interesting to note that the people's tagging were far from unanimous;
+%that's probably due to multiple factors:
+%\begin{itemize}
+%\item \textbf{Subjectivity} -- whether a word is abstract or concrete is 	somewhat subjective. words like \heb{כֶּלֶא} and \heb{חַשְׁמַל} weren't labelled conclusively.
+%Whether one can precieve certain noun by the five senses isn't black and white.
+%\item \textbf{Homographs} -- words with different meanings which are spelled the same made some ambiguity on whether the word is abstract, obviously, because the meaning wasn't conclusive. Good examples are the words \heb{שִׂיחַ} and \heb{יְצוּר}.
+%\end{itemize}
+%
+%\subsection{Labelling Results} \label{subsec:labellingresults}
+%Even just from people's labelling of Hebrew nouns, it can easily be inferred that there's a strong correlation between the morphological structure and the abstractness of words:
+%\begin{itemize}
+%
+%\newcommand{\prefixHit}{\texthebrew{'הת\_\_\_ '}}
+%\item \textbf{The prefix \prefixHit} --- Out of 58 nouns that started with the prefix  \prefixHit , \textbf{all} were tagged as abstract. That is probably due to the pattern \heb{הִתְפַּעְלוּת} with words like \heb{הִתְבַּגְּרוּת}, \heb{הִתְבַּצְּרוּת} and \heb{הִתְגַּלְּמוּת}.
+%
+%\newcommand{\suffixHut}{\texthebrew{'\_\_\_ ות'}}
+%\item \textbf{The suffix \suffixHut} --- Out of 192 nouns that ended with the suffix  \suffixHut , \textbf{95\%} were tagged as abstract. That is also probably due to the pattern \heb{הִתְפַּעְלוּת}, but also due to other properties of the Hebrew language. This suffix is used a lot in the noun creation process of root+pattern, with words like \heb{מְדִינִיּוּת} and \heb{אֳמָנוּת} etc.
+%
+%\newcommand{\patternHaktala}{\texthebrew{'הַקְטָלָה'}}
+%\item \textbf{The pattern \patternHaktala} --- Out of 120 nouns that had the form of the pattern \patternHaktala , \textbf{99\%} were tagged as abstract. That might be because the pattern is derived from the noun form of the pattern \heb{הִפְעִיל}. Nouns like \heb{הַקְצָנָה} and  \heb{הַזְנָחָה} appeared on the abstract side, whereas on the concrete side there was only one word - \heb{הַמְחָאָה}.
+%
+%\newcommand{\patternKtila}{\texthebrew{'קְטִילָה'}}
+%\item \textbf{The pattern \patternKtila} --- Out of 105 nouns that had the form of the pattern \patternKtila , \textbf{88\%} were tagged as abstract. That's probably because the pattern is derived from the noun form of the pattern \heb{קַל}. Nouns like \heb{בְּדִיקָה} and  \heb{לְחִימָה} appeared on the abstract side, and nouns like \heb{גְּלִידָה} and \heb{בְּלִילָה} appeared on the concrete side.
+%
+%\end{itemize}
+%
+%\subsection{Classification Results}\label{subsec:classificationResults}
+%For the classification process we've had to sample words from the whole set of dotted nouns in the \textit{Arutz 7} corpus. At the abstract set we sampled 500 nouns with patterns as mentioned in \ref{subsec:labellingresults}, and other patterns like \texthebrew{'מִקְטוּל'}, \texthebrew{'קְטִילוּת'} and \texthebrew{'\_\_\_ קה'} which might express an abstract meaning.  At the concrete set, we took another 500 nouns without the 'abstract' patterns. With those words, we used KNN classifier on their semantic vector representation which was taken from \textit{fasttext}. We got the best results when the parameter K of the KNN was set to 11. \\
+%Overall, we've managed to achieve about \textbf{80\%} accuracy score with Pearson-Correlation value of \textbf{0.6}.
+%Considering that the test set by itself is noisy, and the abstractness property is subjective -- these are pretty good results.
+%
+%
+%\newpage
+%
+%%---------------------- Summary ----------------------
+%
+%\section{Summary}\label{sec:summary}
+%This project goal is to prove empirically whether the morphological structure reflects the abstractness of words, both in Hebrew and in English.
+%In order to do that, we trained a machine learning classier to distinguish between concrete and abstract words, solely based on the morphological structure.
+%The classifiers achieved good results, which proved the correlation, and moreover -- the Hebrew classifier has yielded better results, which confirms that Hebrew is more morphologically expressive.
+%
+%\newpage
+
+\end{document}

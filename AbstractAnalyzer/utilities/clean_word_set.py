@@ -39,9 +39,9 @@ def filter_data_set(unfiltered_data_set_path: str, corpus_path: str, training_se
 
 
 def main():
-    filter_data_set(PathConfigs.NounSets.hebrew_abstract_noun_set_path,
+    filter_data_set(PathConfigs.RawFiles.hebrew_concrete_noun_set_unfiltered_path,
                     PathConfigs.Corpuses.hebrew_cc_corpus_path,
-                    PathConfigs.NounSets.hebrew_abstract_noun_set_path)
+                    PathConfigs.TrainingSets.hebrew_concrete_training_set_path)
 
 
 if __name__ == '__main__':
